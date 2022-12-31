@@ -2,6 +2,7 @@ package com.springbootorm.entity;
 
 import javax.persistence.*;
 
+@Data
 @Entity
 @Table(name = "tutorials")
 public class Tutorial {
